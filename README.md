@@ -1,24 +1,29 @@
 
 # 📊 Eth-Bank Apps Sentiment Analysis
-![5.PNG](..%2F..%2F..%2Fimages%2F5.PNG)
+![5](https://github.com/user-attachments/assets/a41b5c9b-9960-4ff5-b61a-74d5265573ce)
+
 *Actionable customer-experience insights for three leading Ethiopian banks, powered by NLP, interactive dashboards & a zero-config SQLite data-lake.*
 
----
-![1.PNG](..%2F..%2F..%2Fimages%2F1.PNG)
+---![1](https://github.com/user-attachments/assets/7c348e45-656c-4390-90a0-9ac9ae351c92)
+
+
 ## 🚀 What is this?
 
 This repository ingests **Google Play** reviews for the Commercial Bank of Ethiopia (CBE), Bank of Abyssinia (BOA) and Dashen Bank, cleans and enriches them with:
-![4.PNG](..%2F..%2F..%2Fimages%2F4.PNG)
+![2](https://github.com/user-attachments/assets/562ae616-22b7-458b-8003-e15480238dfb)
+
 * **Sentiment scores** (DistilBERT + AfriBERTa ensemble)
 * **Business themes** (8 pain-point categories)
 * **Interactive visualisations** (Plotly + Streamlit)
 * **Recommendations** per bank based on top negative drivers
+![3](https://github.com/user-attachments/assets/e749d859-5bc6-42bc-a0e6-764a234de109)
 
 All raw & processed data are written to a lightweight **SQLite** database (`bank_reviews.db`) so you can explore the full dataset with nothing more than Python ☕
 ![3.PNG](..%2F..%2F..%2Fimages%2F3.PNG)
 ---
-![2.PNG](..%2F..%2F..%2Fimages%2F2.PNG)
+
 ## 🗂️ Repo Structure
+![4](https://github.com/user-attachments/assets/e30c8d42-8309-456d-88df-1cde2488cf51)
 
 ```text
 .
